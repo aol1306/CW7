@@ -14,6 +14,7 @@ namespace CW7.Structures
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Address { get; set; }
+
         public Studies Studies { get; set; }
         public ObservableCollection<Subject> Subjects { get; set; }
         public override string ToString()
